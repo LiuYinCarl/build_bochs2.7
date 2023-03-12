@@ -57,3 +57,15 @@ bash ./my_fix_cc_error.sh
 ```bash
 make
 ```
+
+## Useful Tips
+
+### error1:  Bochs is not compiled with lowlevel sound support
+
+just comment the sound config in `.bochsrc`
+
+### error2: cpu directive malformed
+
+this is because bochs not support your CPU in you bochsrc configuration,
+you can run `bochs -help cpu` to see the supported cpus and select one
+to replace your configuration.
