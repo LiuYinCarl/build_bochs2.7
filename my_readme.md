@@ -69,3 +69,9 @@ just comment the sound config in `.bochsrc`
 this is because bochs not support your CPU in you bochsrc configuration,
 you can run `bochs -help cpu` to see the supported cpus and select one
 to replace your configuration.
+
+
+## Example
+
+`my_bochsrc` is a example config file for a X64 CPU. After make bochs, you
+can run `my_run.sh` to test it.
