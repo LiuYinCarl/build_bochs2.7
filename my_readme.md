@@ -52,3 +52,8 @@ bash ./my_build.sh
 bash ./my_fix_cc_error.sh
 ```
 
+## step 4: make bochs
+
+```bash
+make
+```
