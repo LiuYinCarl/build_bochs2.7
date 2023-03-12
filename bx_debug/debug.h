@@ -22,8 +22,8 @@
 #define BX_DEBUG_H
 
 // if including from C parser, need basic types etc
-#include "config.h"
-#include "osdep.h"
+#include "../config.h"
+#include "../osdep.h"
 
 #define BX_DBG_NO_HANDLE 1000
 
@@ -31,7 +31,7 @@ Bit32u crc32(const Bit8u *buf, int len);
 
 #if BX_DEBUGGER
 
-#include "cpu/decoder/decoder.h"
+#include "../cpu/decoder/decoder.h"
 
 // some strict C declarations needed by the parser/lexer
 #ifdef __cplusplus
